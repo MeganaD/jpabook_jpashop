@@ -5,7 +5,6 @@ import lombok.Setter;
 
 import javax.persistence.*;
 
-@Embeddable
 @Entity
 @Getter @Setter
 public class Delivery {
@@ -21,5 +20,6 @@ public class Delivery {
 
     @Enumerated(EnumType.STRING)
     private DeliveryStatus status;
+
 
 }
